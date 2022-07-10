@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: url(./image/hZMDgng-joke-wallpaper.jpg),
+      rgba(19, 70, 6, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  
+  .container {
+    width: 750px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 150px auto;
+    box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    background: url(./image/hZMDgng-joke-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    float: left;
+    margin: 50px 30px 30px 0;
+    shape-outside: circle();
+    box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(14, 14, 14);
+  }
+  
+  p {
+    color: rgb(108, 106, 106);
+    font-weight: 300;
+    line-height: 26px;
+  }
+
+  .bottomRight{
+     border-radius: 5px;
+     background-color: black;
+     color: whitesmoke;
+
+  }
+  
