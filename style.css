@@ -46,6 +46,8 @@
     color: rgb(108, 106, 106);
     font-weight: 300;
     line-height: 26px;
+    font-size: xx-large;
+    margin: 10px;
   }
 
   .bottomRight{
@@ -54,4 +56,6 @@
      color: whitesmoke;
 
   }
+
+ 
   

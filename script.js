@@ -27,12 +27,15 @@ fetch('https://dad-jokes.p.rapidapi.com/random/joke', options)
             console.log(data); 
             
             var getJoke = document.createElement('p')
-            getJoke.textContent='getJoke' + data.body
+            getJoke.textContent=data.body[0].setup
+
+            var getPunch = document.createElement('p')
+            getPunch.textContent=data.body[0].punchline
             
             
             
               
-            document.getElementById('jokes').append(JSON.stringify(getJoke));     
+            document.getElementById('jokes').append(getJoke,getPunch);     
         });
     }         
             
