@@ -13,7 +13,7 @@ function startJokes(){
         }
     };
     
-    fetch('https://jokeapi-v2.p.rapidapi.com/joke/Any?format=json&blacklistFlags=nsfw%2Cracist', options)
+    fetch('https://jokeapi-v2.p.rapidapi.com/joke/Any?format=json&blacklistFlags=nsfw,racist,religious,explicit', options)
     .then(function (response) {
         return response.json();
     })
