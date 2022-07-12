@@ -50,12 +50,40 @@
     margin: 10px;
   }
 
-  .bottomRight{
+  #bottomRight{
      border-radius: 5px;
      background-color: black;
      color: whitesmoke;
 
   }
 
- 
+#erase-one{
+  border-radius: 5px;
+     background-color: black;
+     color: whitesmoke;
+}
+
+
+ /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+ body{
+   flex-direction: column;
+ }
+  
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  body{
+    flex-direction: column;
+  }
+  
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  body{
+    flex-direction: column;
+  }
+}
   
